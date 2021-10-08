@@ -58,6 +58,9 @@ DeletionListener.prototype = {
       // select another message, but will bail out when we actually try to
       // select it.
       display._nextViewIndexAfterDelete = -1;
+      if (display.view.dbView) {
+        display.view.dbView.selectionChanged();
+      }
     }
   },
 };
