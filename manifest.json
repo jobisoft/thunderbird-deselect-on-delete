@@ -2,12 +2,12 @@
   "manifest_version": 2,
   "name": "Deselect on Delete TB78",
   "description": "Disables selection of the next message when deleting",
-  "version": "3.4",
+  "version": "3.6",
   "applications": {
     "gecko": {
       "id": "deselectondelete@baz.pw",
       "strict_min_version": "78.0",
-      "strict_max_version": "102.*"
+      "strict_max_version": "115.*"
     }
   },
 
